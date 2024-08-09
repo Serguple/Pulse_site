@@ -163,6 +163,13 @@
             }
         }
     }
+
+    .footer {
+        &__info {
+            width: 360px;
+            height: 250px;
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -328,6 +335,41 @@
 
         &-item {
             width: 280px;
+        }
+    }
+
+    .footer {
+        height: 500px;
+
+        &__info {
+            width: 250px;
+            height: 160px;
+        }
+
+        &__address {
+            margin-top: 20px;
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+
+        &__phone {
+            font-size: 18px;
+            text-align: center;
+            color: #fff;
+        }
+
+        &__socials {
+            margin: 15px auto 0 auto;
+            width: 192px;
+        }
+
+        &__social {
+            width: 45px;
+            height: 45px;
+
+            i {
+                font-size: 22px;
+            }
         }
     }
 }
