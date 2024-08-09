@@ -1,0 +1,39 @@
+.reviews {
+    padding: 40px 0 48px 0;
+
+    &__wrapper {
+        max-width: 870px;
+    }
+
+    &-item {
+        margin-top: 60px;
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+
+        &__img {
+            margin-right: 60px;
+        }
+
+        &__title {
+            font-weight: 700;
+            font-size: 18px;
+            color: #0d0d0d;
+        }
+
+        &__achievement {
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;
+        }
+
+
+        &__descr {
+            margin-top: 10px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #0d0d0d;
+        }
+    }
+}

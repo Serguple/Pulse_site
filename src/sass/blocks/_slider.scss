@@ -1,0 +1,38 @@
+.slider {
+    padding: 113px 0 70px 0;
+    background-color: #fff;
+    position: relative;
+    width: 887px;
+    margin: 0 auto;
+
+    &__content {
+        margin: 0 auto;
+        height: 525px;
+
+        img {
+            display: block;
+            margin: 0 auto;
+
+        }
+
+    }
+
+    .prev,
+    .next {
+        border: none;
+        background-color: #fff;
+        position: absolute;
+    }
+
+    .prev {
+        left: -40px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .next {
+        right: -40px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

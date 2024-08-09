@@ -1,0 +1,5 @@
+@mixin emove_link_style {
+    &:hover {
+        text-decoration: none;
+    }
+}
